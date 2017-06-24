@@ -1,0 +1,17 @@
+body {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.tengah
+{
+    align-content: center;
+    text-align: center;
+}
+.peta img
+{
+    min-height: 1400px;
+    min-width: 1400px;
+    max-height: 95%;
+    max-width: 95%;
+}
