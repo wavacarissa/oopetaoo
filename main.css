@@ -21,10 +21,19 @@ body h1
 {
     align-content: center;
     text-align: center;
+    left: 50%;
+    right: 50%;
 }
-.peta img
+.peta #bg
 {
     height: 1500px; width: 1500px;
+    min-height: 1500px; 1500px;
     padding: 50px;
     
+}
+
+
+.gedung img{
+    width: 100px; height: 100px;
+    z-index: 1000px;
 }
