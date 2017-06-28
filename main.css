@@ -35,10 +35,27 @@ body h1
     z-index: -1000px;
 }
 
+.gedung img{
+    width: 110px;
+    height: 110px;
+}
 #gsp
 {
-     width: 110px; height: 110px;
-    z-index: 1000px;
     top: 750px;
     left: 715px;
+}
+
+#kh
+{
+    top: 620px;left: 810px;
+}
+#ftp
+{
+    height: 150px; width: 50px;
+    top: 720px; left:860px;
+}
+#pt
+{
+    height: 280px;
+    top: 600px;left: 915px;
 }
