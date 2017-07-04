@@ -1,3 +1,4 @@
+@import "responsive";
 html,
 body {
     background: linear-gradient(to bottom, rgba(231, 126, 97, 1), rgba(237, 164, 96, 1));
@@ -7,6 +8,9 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    @include mobile {
+        height: 100%;
+    }
 }
 
 #peta-ugm {
@@ -22,6 +26,9 @@ body {
     letter-spacing: 30px;
     word-spacing: 50%;
     margin-bottom: 50px;
+    @include mobile {
+        letter-spacing: 5px;
+    }
 }
 
 #bg {
@@ -43,6 +50,9 @@ body {
     white-space: -pre-wrap;
     white-space: -o-pre-wrap;
     word-wrap: break-word;
+    @include mobile {
+        width: 180px;
+    }
     .close {
         margin-top: 1%;
         margin-right: 4px;
@@ -55,6 +65,10 @@ body {
         img {
             width: 100% !important;
             padding: 0 0 10px;
+        }
+        @include mobile {
+            height: 150px;
+            overflow-y: scroll;
         }
     }
 }
@@ -76,6 +90,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 34%;
+            }
         }
     }
     .marker2 {
@@ -84,6 +102,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 17%;
+            }
         }
     }
     .marker3 {
@@ -92,6 +114,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 9%;
+            }
         }
     }
     .marker4 {
@@ -100,6 +126,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 11%;
+            }
         }
     }
     .marker5 {
@@ -108,6 +138,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 14%;
+            }
         }
     }
 }
@@ -125,6 +159,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 13%;
+            }
         }
     }
     .marker2 {
@@ -133,6 +171,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 11%;
+            }
         }
     }
     .marker3 {
@@ -141,6 +183,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 15%;
+            }
         }
     }
     .marker4 {
@@ -149,6 +195,10 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 16%;
+            }
         }
     }
 }
@@ -196,17 +246,34 @@ body {
     .marker2 {
         top: 38%;
         left: 24.1%;
+        //mobile
+        @include mobile {
+            top: 39%;
+            left: 24%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 17%;
+            }
         }
     }
     .marker3 {
         top: 38.2%;
         left: 37.5%;
+        //mobile
+        @include mobile {
+            top: 39.2%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 12%;
+            }
         }
     }
     .marker4 {
@@ -215,14 +282,27 @@ body {
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 12%;
+            }
         }
     }
     .marker5 {
         top: 47.5%;
         left: 37.7%;
+        //mobile
+        @include mobile {
+            top: 46.5%;
+            left: 37.2%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 12%;
+            }
         }
     }
 }
@@ -237,14 +317,28 @@ body {
     .marker1 {
         top: 36.8%;
         left: 46.6%;
+        //mobile
+        @include mobile {
+            top: 35.5%;
+            left: 46.5%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 11%;
+            }
         }
     }
     .marker2 {
         top: 43%;
         left: 45.2%;
+        //mobile
+        @include mobile {
+            top: 41%;
+            left: 45.2%;
+        }
         img {
             width: 13%;
             cursor: pointer;
@@ -253,38 +347,68 @@ body {
     .marker3 {
         top: 37.3%;
         left: 53%;
+        //mobile
+        @include mobile {
+            top: 37%;
+            left: 53%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 9%;
+            }
         }
     }
     .marker4 {
         top: 39%;
         left: 57.5%;
+        @include mobile {
+            top: 38%;
+        }
         img {
             width: 39%;
             cursor: pointer;
+            @include mobile {
+                width: 13%;
+            }
         }
     }
     .marker5 {
         top: 47%;
         left: 54%;
+        @include mobile {
+            top: 45%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            @include mobile {
+                width: 12%;
+            }
         }
     }
     .marker6 {
         top: 44.5%;
         left: 58%;
+        @include mobile {
+            top: 43%;
+        }
         img {
             width: 35%;
             cursor: pointer;
+            @include mobile {
+                width: 11%;
+            }
         }
     }
     .marker7 {
         top: 53%;
         left: 57.2%;
+        @include mobile {
+            top: 52%;
+        }
         img {
             width: 13%;
             cursor: pointer;
@@ -293,6 +417,9 @@ body {
     .marker8 {
         top: 55%;
         left: 53.7%;
+        @include mobile {
+            top: 54%;
+        }
         img {
             width: 9%;
             cursor: pointer;
@@ -309,7 +436,13 @@ body {
     .marker10 {
         top: 59.2%;
         left: 42.8%;
+        @include mobile {
+            top: 58.2%;
+        }
         img {
+            @include mobile {
+                width: 10%;
+            }
             width: 32%;
             cursor: pointer;
         }
@@ -317,9 +450,15 @@ body {
     .marker11 {
         top: 60%;
         left: 50.3%;
+        @include mobile {
+            top: 58%;
+        }
         img {
             width: 6%;
             cursor: pointer;
+            @include mobile {
+                width: 5%;
+            }
         }
     }
 }
@@ -340,6 +479,10 @@ body {
     .marker1 {
         top: 65%;
         left: 36.8%;
+        //mobile
+        @include mobile {
+            top: 63%;
+        }
         img {
             width: 6%;
             cursor: pointer;
@@ -348,14 +491,27 @@ body {
     .marker2 {
         top: 67.9%;
         left: 34%;
+        //mobile
+        @include mobile {
+            top: 68.7%;
+            left: 34%;
+        }
         img {
             width: 36%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 11%;
+            }
         }
     }
     .marker3 {
         top: 87%;
         left: 25%;
+        //mobile
+        @include mobile {
+            top: 85%;
+        }
         img {
             width: 9%;
             cursor: pointer;
@@ -364,9 +520,16 @@ body {
     .marker4 {
         top: 88%;
         left: 33.9%;
+        @include mobile {
+            top: 86%;
+        }
         img {
             width: 9%;
             cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 7%;
+            }
         }
     }
 }
@@ -374,11 +537,16 @@ body {
 
 /* Sektor G End */
 
+
 /* Sektor H */
+
 #sektor-h {
     .marker1 {
         top: 68%;
         left: 43%;
+        @include mobile {
+            top: 66%;
+        }
         img {
             width: 8%;
             cursor: pointer;
@@ -406,11 +574,18 @@ body {
         img {
             width: 39%;
             cursor: pointer;
+            @include mobile {
+                width: 11%;
+            }
         }
     }
-     .marker5 {
+    .marker5 {
         top: 78%;
         left: 47.5%;
+        @include mobile {
+            top: 73%;
+            left: 47.2%;
+        }
         img {
             width: 7%;
             cursor: pointer;
@@ -419,6 +594,9 @@ body {
     .marker6 {
         top: 69%;
         left: 50.2%;
+        @include mobile {
+            top: 67%;
+        }
         img {
             width: 5%;
             cursor: pointer;
@@ -430,11 +608,17 @@ body {
         img {
             width: 32%;
             cursor: pointer;
+            @include mobile {
+                width: 13.5%;
+            }
         }
     }
     .marker8 {
         top: 80%;
         left: 61%;
+        @include mobile {
+            top: 78%;
+        }
         img {
             width: 9%;
             cursor: pointer;
@@ -448,21 +632,29 @@ body {
             cursor: pointer;
         }
     }
-   
 }
+
 
 /* Sektor H End */
 
+
 /* Sektor I */
+
 #sektor-i {
     .marker1 {
         top: 78%;
         left: 72%;
+        
+        @include mobile {
+            top: 76%;
+        }
+        
         img {
             width: 26%;
             cursor: pointer;
         }
     }
 }
+
 
 /* Sektor I End */

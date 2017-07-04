@@ -141,7 +141,7 @@ body {
     .marker4 img {
         width: 16%;
     }
-}
+}h
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .marker1 img {
@@ -159,27 +159,4 @@ body {
 }
 
 
-/*
-$mobile-width: 480px;
-$tablet-width: 768px;
-$desktop-width: 1024px;
-
-@mixin mobile {
-    @media only screen and (max-width: #{$mobile-width}) {
-        @content;
-    } 
-}
-
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}
-*/
 
