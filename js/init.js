@@ -2,10 +2,10 @@ $(document).ready(function() {
     $('[data-toggle="popover"]').popover({
         html: true,
         placement: 'top',
-//        trigger: 'focus',
+        trigger: 'focus',
         content: function() {
             return '<p>' + $(this).data('deskripsi') + '</p>' +
-                '<a href="' + $(this).data('link') + '">' + $(this).data('link') + '</a>' +
+                '<p><a href="' + $(this).data('link') + '">' + $(this).data('link') + '</a></p>' +
                 '<img src="' + $(this).data('img') + '" />'
         },
         template: '<div class="popover">' +
