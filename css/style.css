@@ -1,0 +1,346 @@
+/* line 1, ../sass/style.scss */
+html,
+body {
+  background: linear-gradient(to bottom, #e77e61, #eda460);
+  background: -webkit-linear-gradient(to bottom, #e77e61, #eda460);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../sass/style.scss */
+#peta-ugm {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 18, ../sass/style.scss */
+.title {
+  color: floralwhite;
+  font-size: 40px;
+  font-variant-numeric: 700;
+  letter-spacing: 30px;
+  word-spacing: 50%;
+  margin-bottom: 50px;
+}
+
+/* line 27, ../sass/style.scss */
+#bg {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  position: relative;
+}
+
+/* Popover */
+/* line 37, ../sass/style.scss */
+.popover {
+  border: none;
+  padding: 0px;
+  width: 200px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+/* line 46, ../sass/style.scss */
+.popover .close {
+  margin-top: 1%;
+  margin-right: 4px;
+}
+/* line 50, ../sass/style.scss */
+.popover .popover-title {
+  background-color: #e16160;
+  color: white;
+}
+/* line 55, ../sass/style.scss */
+.popover .popover-content img {
+  width: 100% !important;
+  padding: 0 0 10px;
+}
+
+/* Popover End */
+/* line 65, ../sass/style.scss */
+.markers {
+  position: absolute;
+}
+
+/* Sektor A */
+/* line 73, ../sass/style.scss */
+#sektor-a .marker1 {
+  top: 10%;
+  left: 9.8%;
+}
+/* line 76, ../sass/style.scss */
+#sektor-a .marker1 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 81, ../sass/style.scss */
+#sektor-a .marker2 {
+  top: 22%;
+  left: 9%;
+}
+/* line 84, ../sass/style.scss */
+#sektor-a .marker2 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 89, ../sass/style.scss */
+#sektor-a .marker3 {
+  top: 21%;
+  left: 30%;
+}
+/* line 92, ../sass/style.scss */
+#sektor-a .marker3 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 97, ../sass/style.scss */
+#sektor-a .marker4 {
+  top: 22.8%;
+  left: 35%;
+}
+/* line 100, ../sass/style.scss */
+#sektor-a .marker4 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 105, ../sass/style.scss */
+#sektor-a .marker5 {
+  top: 30%;
+  left: 30.7%;
+}
+/* line 108, ../sass/style.scss */
+#sektor-a .marker5 img {
+  width: 35%;
+  cursor: pointer;
+}
+
+/* Sektor A End */
+/* Sektor B */
+/* line 122, ../sass/style.scss */
+#sektor-b .marker1 {
+  top: 29%;
+  left: 43.7%;
+}
+/* line 125, ../sass/style.scss */
+#sektor-b .marker1 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 130, ../sass/style.scss */
+#sektor-b .marker2 {
+  top: 28%;
+  left: 53.3%;
+}
+/* line 133, ../sass/style.scss */
+#sektor-b .marker2 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 138, ../sass/style.scss */
+#sektor-b .marker3 {
+  top: 21%;
+  left: 50%;
+}
+/* line 141, ../sass/style.scss */
+#sektor-b .marker3 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 146, ../sass/style.scss */
+#sektor-b .marker4 {
+  top: 21%;
+  left: 57.5%;
+}
+/* line 149, ../sass/style.scss */
+#sektor-b .marker4 img {
+  width: 35%;
+  cursor: pointer;
+}
+
+/* Sektor B End */
+/* Sektor C */
+/* line 163, ../sass/style.scss */
+#sektor-c .marker1 {
+  top: 18.5%;
+  left: 67%;
+}
+/* line 166, ../sass/style.scss */
+#sektor-c .marker1 img {
+  width: 32%;
+  cursor: pointer;
+}
+/* line 171, ../sass/style.scss */
+#sektor-c .marker2 {
+  top: 19%;
+  left: 78%;
+}
+/* line 174, ../sass/style.scss */
+#sektor-c .marker2 img {
+  width: 40%;
+  cursor: pointer;
+}
+
+/* Sektor C End */
+/* Sektor D End */
+/* line 188, ../sass/style.scss */
+#sektor-d .marker1 {
+  top: 43%;
+  left: 17.4%;
+}
+/* line 191, ../sass/style.scss */
+#sektor-d .marker1 img {
+  width: 10%;
+  cursor: pointer;
+}
+/* line 196, ../sass/style.scss */
+#sektor-d .marker2 {
+  top: 38%;
+  left: 24.1%;
+}
+/* line 199, ../sass/style.scss */
+#sektor-d .marker2 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 204, ../sass/style.scss */
+#sektor-d .marker3 {
+  top: 38.2%;
+  left: 37.5%;
+}
+/* line 207, ../sass/style.scss */
+#sektor-d .marker3 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 212, ../sass/style.scss */
+#sektor-d .marker4 {
+  top: 53%;
+  left: 26.7%;
+}
+/* line 215, ../sass/style.scss */
+#sektor-d .marker4 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 220, ../sass/style.scss */
+#sektor-d .marker5 {
+  top: 47.5%;
+  left: 37.7%;
+}
+/* line 223, ../sass/style.scss */
+#sektor-d .marker5 img {
+  width: 35%;
+  cursor: pointer;
+}
+
+/* Sektor D End */
+/* Sektor E */
+/* line 237, ../sass/style.scss */
+#sektor-e .marker1 {
+  top: 36.8%;
+  left: 46.6%;
+}
+/* line 240, ../sass/style.scss */
+#sektor-e .marker1 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 245, ../sass/style.scss */
+#sektor-e .marker2 {
+  top: 43%;
+  left: 45.2%;
+}
+/* line 248, ../sass/style.scss */
+#sektor-e .marker2 img {
+  width: 13%;
+  cursor: pointer;
+}
+/* line 253, ../sass/style.scss */
+#sektor-e .marker3 {
+  top: 37.3%;
+  left: 53%;
+}
+/* line 256, ../sass/style.scss */
+#sektor-e .marker3 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 261, ../sass/style.scss */
+#sektor-e .marker4 {
+  top: 39%;
+  left: 57.5%;
+}
+/* line 264, ../sass/style.scss */
+#sektor-e .marker4 img {
+  width: 39%;
+  cursor: pointer;
+}
+/* line 269, ../sass/style.scss */
+#sektor-e .marker5 {
+  top: 47%;
+  left: 54%;
+}
+/* line 272, ../sass/style.scss */
+#sektor-e .marker5 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 277, ../sass/style.scss */
+#sektor-e .marker6 {
+  top: 44.5%;
+  left: 58%;
+}
+/* line 280, ../sass/style.scss */
+#sektor-e .marker6 img {
+  width: 35%;
+  cursor: pointer;
+}
+/* line 285, ../sass/style.scss */
+#sektor-e .marker7 {
+  top: 53%;
+  left: 57.2%;
+}
+/* line 288, ../sass/style.scss */
+#sektor-e .marker7 img {
+  width: 13%;
+  cursor: pointer;
+}
+/* line 293, ../sass/style.scss */
+#sektor-e .marker8 {
+  top: 55%;
+  left: 53.7%;
+}
+/* line 296, ../sass/style.scss */
+#sektor-e .marker8 img {
+  width: 9%;
+  cursor: pointer;
+}
+/* line 301, ../sass/style.scss */
+#sektor-e .marker9 {
+  top: 60%;
+  left: 60.5%;
+}
+/* line 304, ../sass/style.scss */
+#sektor-e .marker9 img {
+  width: 11%;
+  cursor: pointer;
+}
+/* line 309, ../sass/style.scss */
+#sektor-e .marker10 {
+  top: 59.2%;
+  left: 42.8%;
+}
+/* line 312, ../sass/style.scss */
+#sektor-e .marker10 img {
+  width: 32%;
+  cursor: pointer;
+}
+
+/* Sektor E */

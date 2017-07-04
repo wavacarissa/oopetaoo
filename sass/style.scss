@@ -1,0 +1,320 @@
+html,
+body {
+    background: linear-gradient(to bottom, rgba(231, 126, 97, 1), rgba(237, 164, 96, 1));
+    background: -webkit-linear-gradient(to bottom, rgba(231, 126, 97, 1), rgba(237, 164, 96, 1));
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#peta-ugm {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
+    color: floralwhite;
+    font-size: 40px;
+    font-variant-numeric: 700;
+    letter-spacing: 30px;
+    word-spacing: 50%;
+    margin-bottom: 50px;
+}
+
+#bg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Popover */
+
+.popover {
+    border: none;
+    padding: 0px;
+    width: 200px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    .close {
+        margin-top: 1%;
+        margin-right: 4px;
+    }
+    .popover-title {
+        background-color: #e16160;
+        color: white;
+    }
+    .popover-content {
+        img {
+            width: 100% !important;
+            padding: 0 0 10px;
+        }
+    }
+}
+
+
+/* Popover End */
+
+.markers {
+    position: absolute;
+}
+
+
+/* Sektor A */
+
+#sektor-a {
+    .marker1 {
+        top: 10%;
+        left: 9.8%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker2 {
+        top: 22%;
+        left: 9%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker3 {
+        top: 21%;
+        left: 30%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker4 {
+        top: 22.8%;
+        left: 35%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker5 {
+        top: 30%;
+        left: 30.7%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Sektor A End */
+
+
+/* Sektor B */
+
+#sektor-b {
+    .marker1 {
+        top: 29%;
+        left: 43.7%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker2 {
+        top: 28%;
+        left: 53.3%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker3 {
+        top: 21%;
+        left: 50%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker4 {
+        top: 21%;
+        left: 57.5%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Sektor B End */
+
+
+/* Sektor C */
+
+#sektor-c {
+    .marker1 {
+        top: 18.5%;
+        left: 67%;
+        img {
+            width: 32%;
+            cursor: pointer;
+        }
+    }
+    .marker2 {
+        top: 19%;
+        left: 78%;
+        img {
+            width: 40%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Sektor C End */
+
+
+/* Sektor D End */
+
+#sektor-d {
+    .marker1 {
+        top: 43%;
+        left: 17.4%;
+        img {
+            width: 10%;
+            cursor: pointer;
+        }
+    }
+    .marker2 {
+        top: 38%;
+        left: 24.1%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker3 {
+        top: 38.2%;
+        left: 37.5%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker4 {
+        top: 53%;
+        left: 26.7%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker5 {
+        top: 47.5%;
+        left: 37.7%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Sektor D End */
+
+
+/* Sektor E */
+
+#sektor-e {
+    .marker1 {
+        top: 36.8%;
+        left: 46.6%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker2 {
+        top: 43%;
+        left: 45.2%;
+        img {
+            width: 13%;
+            cursor: pointer;
+        }
+    }
+    .marker3 {
+        top: 37.3%;
+        left: 53%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker4 {
+        top: 39%;
+        left: 57.5%;
+        img {
+            width: 39%;
+            cursor: pointer;
+        }
+    }
+    .marker5 {
+        top: 47%;
+        left: 54%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker6 {
+        top: 44.5%;
+        left: 58%;
+        img {
+            width: 35%;
+            cursor: pointer;
+        }
+    }
+    .marker7 {
+        top: 53%;
+        left: 57.2%;
+        img {
+            width: 13%;
+            cursor: pointer;
+        }
+    }
+    .marker8 {
+        top: 55%;
+        left: 53.7%;
+        img {
+            width: 9%;
+            cursor: pointer;
+        }
+    }
+    .marker9 {
+        top: 60%;
+        left: 60.5%;
+        img {
+            width: 11%;
+            cursor: pointer;
+        }
+    }
+    .marker10 {
+        top: 59.2%;
+        left: 42.8%;
+        img {
+            width: 32%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Sektor E */

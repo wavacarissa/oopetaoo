@@ -74,11 +74,6 @@ body {
     left: 43.7%;
 }
 
-.marker1 a {
-    width: 100px;
-    height: 100px;
-}
-
 .marker1 img {
     width: 35%;
     cursor: pointer;
@@ -162,3 +157,29 @@ body {
         width: 19%;
     }
 }
+
+
+/*
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+    @media only screen and (max-width: #{$mobile-width}) {
+        @content;
+    } 
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+*/
+
