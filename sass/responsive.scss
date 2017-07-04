@@ -10,8 +10,8 @@ $desktop-width: 1024px;
     } 
 }
 
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+@mixin mobile-landscape {
+  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$tablet-width - 1px}) {
     @content;
   }
 }

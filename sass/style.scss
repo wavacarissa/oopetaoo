@@ -94,6 +94,9 @@ body {
             @include mobile {
                 width: 34%;
             }
+            @include mobile-landscape {
+                width: 34%;
+            }
         }
     }
     .marker2 {
@@ -105,6 +108,9 @@ body {
             //mobile
             @include mobile {
                 width: 17%;
+            }
+            @include mobile-landscape {
+                width: 19%;
             }
         }
     }
@@ -118,6 +124,9 @@ body {
             @include mobile {
                 width: 9%;
             }
+            @include mobile-landscape {
+                width: 18%;
+            }
         }
     }
     .marker4 {
@@ -130,6 +139,9 @@ body {
             @include mobile {
                 width: 11%;
             }
+            @include mobile-landscape {
+                width: 20%;
+            }
         }
     }
     .marker5 {
@@ -141,6 +153,9 @@ body {
             //mobile
             @include mobile {
                 width: 14%;
+            }
+            @include mobile-landscape {
+                width: 19%;
             }
         }
     }
@@ -163,6 +178,9 @@ body {
             @include mobile {
                 width: 13%;
             }
+            @include mobile-landscape {
+                width: 20%;
+            }
         }
     }
     .marker2 {
@@ -174,6 +192,9 @@ body {
             //mobile
             @include mobile {
                 width: 11%;
+            }
+            @include mobile-landscape {
+                width: 19%;
             }
         }
     }
@@ -187,6 +208,9 @@ body {
             @include mobile {
                 width: 15%;
             }
+            @include mobile-landscape {
+                width: 19%;
+            }
         }
     }
     .marker4 {
@@ -198,6 +222,9 @@ body {
             //mobile
             @include mobile {
                 width: 16%;
+            }
+            @include mobile-landscape {
+                width: 19%;
             }
         }
     }
@@ -258,6 +285,9 @@ body {
             @include mobile {
                 width: 17%;
             }
+            @include mobile-landscape {
+                width: 20%;
+            }
         }
     }
     .marker3 {
@@ -274,6 +304,9 @@ body {
             @include mobile {
                 width: 12%;
             }
+            @include mobile-landscape {
+                width: 20%;
+            }
         }
     }
     .marker4 {
@@ -285,6 +318,9 @@ body {
             //mobile
             @include mobile {
                 width: 12%;
+            }
+            @include mobile-landscape {
+                width: 20%;
             }
         }
     }
@@ -302,6 +338,9 @@ body {
             //mobile
             @include mobile {
                 width: 12%;
+            }
+            @include mobile-landscape {
+                width: 21%;
             }
         }
     }
@@ -328,6 +367,9 @@ body {
             //mobile
             @include mobile {
                 width: 11%;
+            }
+            @include mobile-landscape {
+                width: 20%;
             }
         }
     }
@@ -359,6 +401,9 @@ body {
             @include mobile {
                 width: 9%;
             }
+            @include mobile-landscape {
+                width: 16%;
+            }
         }
     }
     .marker4 {
@@ -372,6 +417,9 @@ body {
             cursor: pointer;
             @include mobile {
                 width: 13%;
+            }
+            @include mobile-landscape {
+                width: 20%;
             }
         }
     }
@@ -387,6 +435,9 @@ body {
             @include mobile {
                 width: 12%;
             }
+            @include mobile-landscape {
+                width: 18%;
+            }
         }
     }
     .marker6 {
@@ -400,6 +451,9 @@ body {
             cursor: pointer;
             @include mobile {
                 width: 11%;
+            }
+            @include mobile-landscape {
+                width: 19%;
             }
         }
     }
@@ -442,6 +496,9 @@ body {
         img {
             @include mobile {
                 width: 10%;
+            }
+            @include mobile-landscape {
+                width: 18%;
             }
             width: 32%;
             cursor: pointer;
@@ -497,6 +554,9 @@ body {
             cursor: pointer;
             @include mobile {
                 width: 17%;
+            }
+            @include mobile-landscape {
+                width: 16%;
             }
         }
     }
@@ -619,6 +679,9 @@ body {
             @include mobile {
                 width: 9%;
             }
+            @include mobile-landscape {
+                width: 16.5%;
+            }
         }
     }
     .marker3 {
@@ -645,6 +708,9 @@ body {
             //mobile
             @include mobile {
                 width: 7%;
+            }
+            @include mobile-landscape {
+                width: 8%;
             }
         }
     }
@@ -699,6 +765,9 @@ body {
             @include mobile {
                 width: 11%;
             }
+            @include mobile-landscape {
+                width: 21%;
+            }
         }
     }
     .marker5 {
@@ -707,6 +776,10 @@ body {
         @include mobile {
             top: 73%;
             left: 47.2%;
+        }
+        @include mobile-landscape {
+            top: 74.5%;
+            left: 47.3%;
         }
         img {
             width: 7%;
@@ -732,6 +805,9 @@ body {
             cursor: pointer;
             @include mobile {
                 width: 13.5%;
+            }
+            @include mobile-landscape {
+                width: 18%;
             }
         }
     }
