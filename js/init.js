@@ -5,7 +5,7 @@ $(document).ready(function() {
         trigger: 'focus',
         content: function() {
             return '<p>' + $(this).data('deskripsi') + '</p>' +
-                '<p><a href="' + $(this).data('link') + '">' + $(this).data('link') + '</a></p>' +
+                '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>' +
                 '<img src="' + $(this).data('img') + '" />'
         },
         template: '<div class="popover">' +

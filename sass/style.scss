@@ -487,40 +487,35 @@ body {
         }
     }
     .marker2 {
-        top: 43%;
-        left: 45.2%;
-        //mobile
+        top: 47%;
+        left: 64%;
         @include mobile {
-            top: 41%;
-            left: 45.2%;
+            top: 45%;
         }
         img {
-            width: 13%;
+            width: 30%;
             cursor: pointer;
+            @include mobile {
+                width: 17%;
+            }
         }
     }
     .marker3 {
-        top: 37.3%;
-        left: 53%;
-        //mobile
+        top: 53%;
+        left: 73%;
         @include mobile {
-            top: 37%;
-            left: 53%;
+            top: 51%;
         }
         img {
-            width: 35%;
+            width: 19%;
             cursor: pointer;
-            //mobile
-            @include mobile {
-                width: 9%;
-            }
         }
     }
     .marker4 {
         top: 40%;
         left: 84%;
         @include mobile {
-            top: 40%;
+            top: 38%;
         }
         img {
             width: 40%;
@@ -531,17 +526,14 @@ body {
         }
     }
     .marker5 {
-        top: 47%;
-        left: 64%;
+        top: 58%;
+        left: 66.7%;
         @include mobile {
-            top: 47%;
+            top: 56%;
         }
         img {
-            width: 30%;
+            width: 8.7%;
             cursor: pointer;
-            @include mobile {
-                width: 30%;
-            }
         }
     }
     .marker6 {
@@ -558,28 +550,8 @@ body {
             }
         }
     }
-    .marker7 {
-        top: 53%;
-        left: 73%;
-        @include mobile {
-            top: 53%;
-        }
-        img {
-            width: 19%;
-            cursor: pointer;
-        }
-    }
-    .marker8 {
-        top: 58%;
-        left: 66.7%;
-        @include mobile {
-            top: 58%;
-        }
-        img {
-            width: 8.7%;
-            cursor: pointer;
-        }
-    }
+    .marker7 {}
+    .marker8 {}
     .marker9 {
         top: 60%;
         left: 60.5%;
@@ -617,6 +589,8 @@ body {
         }
     }
 }
+
+
 /* Sektor F End */
 
 
@@ -638,7 +612,6 @@ body {
     .marker2 {
         top: 72%;
         left: 34.5%;
-        
         img {
             width: 30%;
             cursor: pointer;
