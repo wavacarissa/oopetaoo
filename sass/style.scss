@@ -489,19 +489,15 @@ body {
         }
     }
     .marker2 {
-        top: 67.9%;
-        left: 34%;
-        //mobile
-        @include mobile {
-            top: 68.7%;
-            left: 34%;
-        }
+        top: 72%;
+        left: 34.5%;
+        
         img {
-            width: 36%;
+            width: 30%;
             cursor: pointer;
             //mobile
             @include mobile {
-                width: 11%;
+                width: 9%;
             }
         }
     }
@@ -542,10 +538,10 @@ body {
 
 #sektor-h {
     .marker1 {
-        top: 68%;
+        top: 67.5%;
         left: 43%;
         @include mobile {
-            top: 66%;
+            top: 65.5%;
         }
         img {
             width: 8%;
@@ -553,16 +549,22 @@ body {
         }
     }
     .marker2 {
-        top: 73%;
+        top: 71%;
         left: 45%;
+        @include mobile {
+            top: 68%;
+        }
         img {
             width: 5%;
             cursor: pointer;
         }
     }
     .marker3 {
-        top: 74.6%;
+        top: 73%;
         left: 42.5%;
+        @include mobile {
+            top: 71%;
+        }
         img {
             width: 3%;
             cursor: pointer;
@@ -592,10 +594,10 @@ body {
         }
     }
     .marker6 {
-        top: 69%;
+        top: 68.5%;
         left: 50.2%;
         @include mobile {
-            top: 67%;
+            top: 66%;
         }
         img {
             width: 5%;
@@ -644,11 +646,9 @@ body {
     .marker1 {
         top: 78%;
         left: 72%;
-        
         @include mobile {
             top: 76%;
         }
-        
         img {
             width: 26%;
             cursor: pointer;
