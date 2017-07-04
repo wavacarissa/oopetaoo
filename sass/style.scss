@@ -469,7 +469,154 @@ body {
 
 /* Sektor F */
 
-
+#sektor-f {
+    .marker1 {
+        top: 27.5%;
+        left: 63.6%;
+        //mobile
+        @include mobile {
+            top: 27.5%;
+        }
+        img {
+            width: 64%;
+            cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 64%;
+            }
+        }
+    }
+    .marker2 {
+        top: 43%;
+        left: 45.2%;
+        //mobile
+        @include mobile {
+            top: 41%;
+            left: 45.2%;
+        }
+        img {
+            width: 13%;
+            cursor: pointer;
+        }
+    }
+    .marker3 {
+        top: 37.3%;
+        left: 53%;
+        //mobile
+        @include mobile {
+            top: 37%;
+            left: 53%;
+        }
+        img {
+            width: 35%;
+            cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 9%;
+            }
+        }
+    }
+    .marker4 {
+        top: 40%;
+        left: 84%;
+        @include mobile {
+            top: 40%;
+        }
+        img {
+            width: 40%;
+            cursor: pointer;
+            @include mobile {
+                width: 40%;
+            }
+        }
+    }
+    .marker5 {
+        top: 47%;
+        left: 64%;
+        @include mobile {
+            top: 47%;
+        }
+        img {
+            width: 30%;
+            cursor: pointer;
+            @include mobile {
+                width: 30%;
+            }
+        }
+    }
+    .marker6 {
+        top: 44.5%;
+        left: 58%;
+        @include mobile {
+            top: 43%;
+        }
+        img {
+            width: 35%;
+            cursor: pointer;
+            @include mobile {
+                width: 11%;
+            }
+        }
+    }
+    .marker7 {
+        top: 53%;
+        left: 73%;
+        @include mobile {
+            top: 53%;
+        }
+        img {
+            width: 19%;
+            cursor: pointer;
+        }
+    }
+    .marker8 {
+        top: 58%;
+        left: 66.7%;
+        @include mobile {
+            top: 58%;
+        }
+        img {
+            width: 8.7%;
+            cursor: pointer;
+        }
+    }
+    .marker9 {
+        top: 60%;
+        left: 60.5%;
+        img {
+            width: 11%;
+            cursor: pointer;
+        }
+    }
+    .marker10 {
+        top: 59.2%;
+        left: 42.8%;
+        @include mobile {
+            top: 58.2%;
+        }
+        img {
+            @include mobile {
+                width: 10%;
+            }
+            width: 32%;
+            cursor: pointer;
+        }
+    }
+    .marker11 {
+        top: 60%;
+        left: 50.3%;
+        @include mobile {
+            top: 58%;
+        }
+        img {
+            width: 6%;
+            cursor: pointer;
+            @include mobile {
+                width: 5%;
+            }
+        }
+    }
+}
 /* Sektor F End */
 
 
