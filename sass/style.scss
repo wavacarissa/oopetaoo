@@ -31,6 +31,41 @@ body {
     }
 }
 
+#sepeda-kampus, #kantong-parkir, #skkk {
+    cursor: pointer;
+}
+
+#sepeda-kampus img {
+width: 10%;
+}
+
+#kantong-parkir img {
+    width: 10%;
+}
+
+#skkk img {
+    width: 10%;
+}
+#tes {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    position: relative;
+}
+
+#tes > img {
+    position: absolute;
+    z-index: 1000;
+}
+
+img.kantong-parkir {
+    display: none;
+}
+
+img.sepeda-kampus {
+    display: none;
+}
+
 #bg {
     margin-right: auto;
     margin-left: auto;
