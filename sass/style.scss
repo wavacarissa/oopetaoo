@@ -563,15 +563,8 @@ img.sepeda-kampus {
             cursor: pointer;
         }
     }
+   
     .marker9 {
-        top: 60%;
-        left: 60.5%;
-        img {
-            width: 11%;
-            cursor: pointer;
-        }
-    }
-    .marker10 {
         top: 59.2%;
         left: 42.8%;
         @include mobile {
@@ -588,7 +581,7 @@ img.sepeda-kampus {
             cursor: pointer;
         }
     }
-    .marker11 {
+    .marker10 {
         top: 60%;
         left: 50.3%;
         @include mobile {
@@ -828,13 +821,13 @@ img.sepeda-kampus {
         }
     }
     .marker2 {
-        top: 71%;
+        top: 70.5%;
         left: 45%;
         @include mobile {
             top: 68%;
         }
         img {
-            width: 5%;
+            width: 28%;
             cursor: pointer;
         }
     }
@@ -924,7 +917,15 @@ img.sepeda-kampus {
             cursor: pointer;
         }
     }
-    .marker9 {
+     .marker9 {
+        top: 60%;
+        left: 60.5%;
+        img {
+            width: 11%;
+            cursor: pointer;
+        }
+    }
+    .marker10 {
         top: 70%;
         left: 61.7%;
         img {
