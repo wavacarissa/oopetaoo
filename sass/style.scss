@@ -620,6 +620,22 @@ img.sepeda-kampus {
             }
         }
     }
+    .marker2a {
+        top: 28%;
+        left: 73.6%;
+        //mobile
+        @include mobile {
+            top: 27.5%;
+        }
+        img {
+            width: 44%;
+            cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 64%;
+            }
+        }
+    }
     .marker2 {
         top: 47%;
         left: 64%;
