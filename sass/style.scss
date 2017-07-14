@@ -8,9 +8,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    @include mobile {
-        height: 100%;
-    }
 }
 
 #peta-ugm {
@@ -632,7 +629,7 @@ img.sepeda-kampus {
             cursor: pointer;
             //mobile
             @include mobile {
-                width: 64%;
+                width: 44%;
             }
         }
     }
