@@ -28,12 +28,14 @@ body {
     }
 }
 
-#sepeda-kampus, #kantong-parkir, #skkk {
+#sepeda-kampus,
+#kantong-parkir,
+#skkk {
     cursor: pointer;
 }
 
 #sepeda-kampus img {
-width: 10%;
+    width: 10%;
 }
 
 #kantong-parkir img {
@@ -43,6 +45,7 @@ width: 10%;
 #skkk img {
     width: 10%;
 }
+
 #tes {
     margin-right: auto;
     margin-left: auto;
@@ -560,7 +563,6 @@ img.sepeda-kampus {
             cursor: pointer;
         }
     }
-   
     .marker9 {
         top: 59.2%;
         left: 42.8%;
@@ -837,11 +839,14 @@ img.sepeda-kampus {
         top: 70.5%;
         left: 45%;
         @include mobile {
-            top: 68%;
+            top: 68.5%;
         }
         img {
             width: 28%;
             cursor: pointer;
+            @include mobile {
+                width: 10%;
+            }
         }
     }
     .marker3 {
@@ -930,7 +935,7 @@ img.sepeda-kampus {
             cursor: pointer;
         }
     }
-     .marker9 {
+    .marker9 {
         top: 60%;
         left: 60.5%;
         img {
@@ -970,3 +975,9 @@ img.sepeda-kampus {
 
 
 /* Sektor I End */
+
+/* Modal */
+img.pin-modal {
+    width: 10%;
+}
+/* Modal End */
