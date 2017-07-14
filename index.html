@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/tambahan.css">
+    <!-- <link rel="stylesheet" href="css/tambahan.css"> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,17 +32,13 @@
                     <p class="text-center">Klik pada gedung yang ingin anda ketahui</p>
                 </div>
             </div>
-            
             <div id="tes">
                 <img class="sepeda-kampus center-block img-responsive" src="img/pin/sepeda-jadi-01.png" alt="">
                 <img class="kantong-parkir center-block img-responsive" src="img/pin/parkir-jadi-01.png" alt="">
-
                 <!--                <img src="img/" alt="">-->
             </div>
-
             <div id="bg">
                 <img class="center-block img-responsive" src="img/peta%20ini%20enteng-baru.png">
-
                 <!-- Sektor A -->
                 <div id="sektor-a">
                     <!-- MM UGM -->
@@ -77,7 +73,6 @@
                     </div>
                 </div>
                 <!-- Sektor A  End -->
-
                 <!-- Sektor B -->
                 <div id="sektor-b">
                     <!-- Balairung -->
@@ -106,7 +101,6 @@
                     </div>
                 </div>
                 <!-- Sektor B End -->
-
                 <!-- Sektor C -->
                 <div id="sektor-c">
                     <!-- Kedokteran Hewan -->
@@ -123,7 +117,6 @@
                     </div>
                 </div>
                 <!-- Sektor C  End -->
-
                 <!-- Sektor D -->
                 <div id="sektor-d">
                     <!-- Sardjito -->
@@ -158,7 +151,6 @@
                     </div>
                 </div>
                 <!-- Sektor D  End -->
-
                 <!-- Sektor E -->
                 <div id="sektor-e">
                     <!-- Perpustakaan Pusat UGM -->
@@ -223,14 +215,18 @@
                     </div>
                 </div>
                 <!-- Sektor E  End -->
-
                 <!-- Sektor F -->
-
                 <div id="sektor-f">
                     <!-- Lembah -->
                     <div class="markers marker1">
                         <a tabindex="0" data-toggle="popover" title='Lembah UGM' data-deskripsi="-" data-link="-" data-img="http://hukor.ugm.ac.id/images/slider_content_74.jpg">
                             <img src="img/F/lembah-03.png" alt="">
+                        </a>
+                    </div>
+                    <!-- Stadion Pancasila -->
+                    <div class="markers marker2a">
+                        <a tabindex="0" data-toggle="popover" title='Stadion Pancasila' data-deskripsi="-" data-link="-" data-img="http://hukor.ugm.ac.id/images/slider_content_74.jpg">
+                            <img src="img/F/stadion.png" alt="">
                         </a>
                     </div>
                     <!-- Pujale -->
@@ -258,9 +254,7 @@
                         </a>
                     </div>
                 </div>
-
                 <!-- Sektor F  End -->
-
                 <!-- Sektor G -->
                 <div id="sektor-g">
                     <!-- GMC -->
@@ -290,7 +284,6 @@
                     </div>
                 </div>
                 <!-- Sektor G  End -->
-
                 <!-- Sektor H -->
                 <div id="sektor-h">
                     <!-- DSSDI -->
@@ -354,9 +347,7 @@
                             <img src="img/H/DEB.png" alt="">
                         </a>
                     </div>
-
                     <!-- Sektor H  End -->
-
                     <!-- Sektor I -->
                     <div id="sektor-i">
                         <!-- Wisma MM UGM -->
@@ -367,11 +358,8 @@
                         </div>
                     </div>
                     <!-- Sektor I  End -->
-
-
                 </div>
             </div>
-            
             <div class="row">
                 <div class="col-xs-4 text-center">
                     <div id="sepeda-kampus">
@@ -392,12 +380,37 @@
                     </div>
                 </div>
             </div>
-
-            
         </div>
     </section>
 
-    
+    <!-- modal -->
+    <div id="modalSepeda" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="mySmallModalLabel">Sepeda Kampus</h4> </div>
+            <div class="modal-body">
+                Tutup terlebih dahulu dengan cara mengklik tombol 
+                <img class="pin-modal" src="img/pin/sepeda-02.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalParkir" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="mySmallModalLabel">Kantong Parkir</h4> </div>
+            <div class="modal-body">
+                Tutup terlebih dahulu dengan cara mengklik tombol 
+                <img class="pin-modal" src="img/pin/parkir-03.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
 
     <!-- js -->
     <script src="js/jquery.js"></script>

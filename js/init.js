@@ -1,9 +1,9 @@
-$(document).ready(function () {
+$(document).ready(function() {
     $('[data-toggle="popover"]').popover({
         html: true,
         placement: 'top',
         trigger: 'focus',
-        content: function () {
+        content: function() {
             return '<p>' + $(this).data('deskripsi') + '</p>' +
                 '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>' +
                 '<img src="' + $(this).data('img') + '" />'
@@ -17,11 +17,19 @@ $(document).ready(function () {
     });
 
 
-    $('#sepeda-kampus').click(function () {
+    $('#sepeda-kampus').click(function() {
         $('img.sepeda-kampus').toggle();
     });
-    
-     $('#kantong-parkir').click(function () {
+
+    $('#kantong-parkir').click(function() {
         $('img.kantong-parkir').toggle();
+    });
+
+    $('img.kantong-parkir').click(function() {
+        $('#modalParkir').modal('toggle');
+    });
+    
+    $('img.sepeda-kampus').click(function() {
+        $('#modalSepeda').modal('toggle');
     });
 });
