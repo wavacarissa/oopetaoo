@@ -130,10 +130,10 @@ img.skkk {
             width: 34%;
             cursor: pointer;
             @include mobile {
-                width: 11%;
+                width: 25%;
             }
             @include mobile-landscape {
-                width: 21%;
+                width: 25%;
             }
             @include tablet {
                 width: 28%;
@@ -150,13 +150,13 @@ img.skkk {
             width: 34%;
             cursor: pointer;
             @include mobile {
-                width: 26%;
+                width: 12%;
             }
             @include mobile-landscape {
-                width: 26%;
+                width: 20%;
             }
             @include tablet {
-                width: 27%;
+                width: 13%;
             }
         }
     }
