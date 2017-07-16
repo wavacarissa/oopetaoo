@@ -141,9 +141,15 @@ img.skkk {
         }
     }
     .marker1a {
-        top: 9%;
-        left: 19%;
+        top: 9.4%;
+        left: 33%;
         @include mobile {
+            top: 8%;
+        }
+        @include mobile-landscape {
+            top: 8.8%;
+        }
+        @include tablet {
             top: 8%;
         }
         img {
@@ -156,7 +162,7 @@ img.skkk {
                 width: 20%;
             }
             @include tablet {
-                width: 13%;
+                width: 34%;
             }
         }
     }

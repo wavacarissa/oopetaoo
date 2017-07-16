@@ -143,10 +143,20 @@ img.skkk {
   }
 }
 #sektor-a .marker1a {
-  top: 9%;
-  left: 19%;
+  top: 9.4%;
+  left: 33%;
 }
 @media (max-width: 480px) {
+  #sektor-a .marker1a {
+    top: 8%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #sektor-a .marker1a {
+    top: 8.8%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
   #sektor-a .marker1a {
     top: 8%;
   }
@@ -167,7 +177,7 @@ img.skkk {
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   #sektor-a .marker1a img {
-    width: 13%;
+    width: 34%;
   }
 }
 #sektor-a .marker2 {
