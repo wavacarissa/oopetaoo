@@ -799,6 +799,27 @@ img.skkk {
 /* Sektor G */
 
 #sektor-g {
+    .marker0 {
+        top: 62%;
+        left: 36.8%;
+        //mobile
+        @include mobile {
+            top: 60%;
+        }
+        @include mobile-landscape {
+            top: 61.5%;
+        }
+        img {
+            width: 6%;
+            cursor: pointer;
+            @include mobile {
+                width: 3%;
+            }
+            @include mobile-landscape {
+                width: 5%;
+            }
+        }
+    }
     .marker1 {
         top: 65%;
         left: 36.8%;
