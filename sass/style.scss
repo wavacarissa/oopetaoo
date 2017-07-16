@@ -53,7 +53,7 @@ body {
     position: relative;
 }
 
-#tes > img {
+#tes>img {
     position: absolute;
     z-index: 1000;
 }
@@ -127,16 +127,36 @@ img.skkk {
         top: 10%;
         left: 9.8%;
         img {
-            width: 35%;
+            width: 34%;
             cursor: pointer;
             @include mobile {
-                width: 34%;
+                width: 11%;
             }
             @include mobile-landscape {
-                width: 34%;
+                width: 21%;
             }
             @include tablet {
-                width: 33%;
+                width: 28%;
+            }
+        }
+    }
+    .marker1a {
+        top: 9%;
+        left: 19%;
+        @include mobile {
+            top: 8%;
+        }
+        img {
+            width: 34%;
+            cursor: pointer;
+            @include mobile {
+                width: 26%;
+            }
+            @include mobile-landscape {
+                width: 26%;
+            }
+            @include tablet {
+                width: 27%;
             }
         }
     }
@@ -414,6 +434,29 @@ img.skkk {
             }
             @include tablet {
                 width: 30%;
+            }
+        }
+    }
+    .marker6 {
+        top: 52%;
+        left: 38%;
+        //mobile
+        @include mobile {
+            top: 50.2%;
+            left: 38%;
+        }
+        img {
+            width: 4%;
+            cursor: pointer;
+            //mobile
+            @include mobile {
+                width: 4%;
+            }
+            @include mobile-landscape {
+                width: 4%;
+            }
+            @include tablet {
+                width: 4%;
             }
         }
     }
@@ -846,10 +889,13 @@ img.skkk {
             top: 68.5%;
         }
         img {
-            width: 28%;
+            width: 23%;
             cursor: pointer;
             @include mobile {
                 width: 10%;
+            }
+            @include mobile-landscape {
+                width: 15%;
             }
         }
     }
@@ -980,8 +1026,12 @@ img.skkk {
 
 /* Sektor I End */
 
+
 /* Modal */
+
 img.pin-modal {
     width: 10%;
 }
+
+
 /* Modal End */

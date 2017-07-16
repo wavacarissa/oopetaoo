@@ -147,135 +147,169 @@ img.skkk {
 }
 /* line 129, ../sass/style.scss */
 #sektor-a .marker1 img {
-  width: 35%;
+  width: 34%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
   /* line 129, ../sass/style.scss */
   #sektor-a .marker1 img {
-    width: 34%;
+    width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   /* line 129, ../sass/style.scss */
   #sektor-a .marker1 img {
-    width: 34%;
+    width: 21%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   /* line 129, ../sass/style.scss */
   #sektor-a .marker1 img {
-    width: 33%;
+    width: 28%;
   }
 }
 /* line 143, ../sass/style.scss */
+#sektor-a .marker1a {
+  top: 9%;
+  left: 19%;
+}
+@media (max-width: 480px) {
+  /* line 143, ../sass/style.scss */
+  #sektor-a .marker1a {
+    top: 8%;
+  }
+}
+/* line 149, ../sass/style.scss */
+#sektor-a .marker1a img {
+  width: 34%;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  /* line 149, ../sass/style.scss */
+  #sektor-a .marker1a img {
+    width: 26%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 149, ../sass/style.scss */
+  #sektor-a .marker1a img {
+    width: 26%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 149, ../sass/style.scss */
+  #sektor-a .marker1a img {
+    width: 27%;
+  }
+}
+/* line 163, ../sass/style.scss */
 #sektor-a .marker2 {
   top: 22%;
   left: 9%;
 }
-/* line 146, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 #sektor-a .marker2 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 146, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   #sektor-a .marker2 img {
     width: 17%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 146, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   #sektor-a .marker2 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 146, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   #sektor-a .marker2 img {
     width: 29%;
   }
 }
-/* line 160, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 #sektor-a .marker3 {
   top: 21%;
   left: 30%;
 }
-/* line 163, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 #sektor-a .marker3 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 163, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   #sektor-a .marker3 img {
     width: 9%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 163, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   #sektor-a .marker3 img {
     width: 18%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 163, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   #sektor-a .marker3 img {
     width: 27%;
   }
 }
-/* line 178, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 #sektor-a .marker4 {
   top: 22.8%;
   left: 35%;
 }
-/* line 181, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 #sektor-a .marker4 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 181, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   #sektor-a .marker4 img {
     width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 181, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   #sektor-a .marker4 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 181, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   #sektor-a .marker4 img {
     width: 29%;
   }
 }
-/* line 196, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 #sektor-a .marker5 {
   top: 30%;
   left: 30.7%;
 }
-/* line 199, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 #sektor-a .marker5 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 199, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
   #sektor-a .marker5 img {
     width: 14%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 199, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
   #sektor-a .marker5 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 199, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
   #sektor-a .marker5 img {
     width: 28%;
   }
@@ -283,114 +317,114 @@ img.skkk {
 
 /* Sektor A End */
 /* Sektor B */
-/* line 223, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 #sektor-b .marker1 {
   top: 29%;
   left: 43.7%;
 }
-/* line 226, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 #sektor-b .marker1 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 226, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   #sektor-b .marker1 img {
     width: 13%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 226, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   #sektor-b .marker1 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 226, ../sass/style.scss */
+  /* line 246, ../sass/style.scss */
   #sektor-b .marker1 img {
     width: 28%;
   }
 }
-/* line 241, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 #sektor-b .marker2 {
   top: 28%;
   left: 53.3%;
 }
-/* line 244, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 #sektor-b .marker2 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 244, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   #sektor-b .marker2 img {
     width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 244, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   #sektor-b .marker2 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 244, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   #sektor-b .marker2 img {
     width: 28%;
   }
 }
-/* line 259, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 #sektor-b .marker3 {
   top: 21%;
   left: 50%;
 }
-/* line 262, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 #sektor-b .marker3 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 262, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   #sektor-b .marker3 img {
     width: 15%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 262, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   #sektor-b .marker3 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 262, ../sass/style.scss */
+  /* line 282, ../sass/style.scss */
   #sektor-b .marker3 img {
     width: 28%;
   }
 }
-/* line 277, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 #sektor-b .marker4 {
   top: 21%;
   left: 57.5%;
 }
-/* line 280, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 #sektor-b .marker4 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 280, ../sass/style.scss */
+  /* line 300, ../sass/style.scss */
   #sektor-b .marker4 img {
     width: 16%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 280, ../sass/style.scss */
+  /* line 300, ../sass/style.scss */
   #sektor-b .marker4 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 280, ../sass/style.scss */
+  /* line 300, ../sass/style.scss */
   #sektor-b .marker4 img {
     width: 27%;
   }
@@ -398,22 +432,22 @@ img.skkk {
 
 /* Sektor B End */
 /* Sektor C */
-/* line 304, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 #sektor-c .marker1 {
   top: 18.5%;
   left: 67%;
 }
-/* line 307, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 #sektor-c .marker1 img {
   width: 32%;
   cursor: pointer;
 }
-/* line 312, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 #sektor-c .marker2 {
   top: 19%;
   left: 78%;
 }
-/* line 315, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 #sektor-c .marker2 img {
   width: 40%;
   cursor: pointer;
@@ -421,412 +455,447 @@ img.skkk {
 
 /* Sektor C End */
 /* Sektor D End */
-/* line 329, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 #sektor-d .marker1 {
   top: 43%;
   left: 17.4%;
 }
-/* line 332, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 #sektor-d .marker1 img {
   width: 10%;
   cursor: pointer;
 }
-/* line 337, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 #sektor-d .marker2 {
   top: 38%;
   left: 24.1%;
 }
 @media (max-width: 480px) {
-  /* line 337, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   #sektor-d .marker2 {
     top: 39%;
     left: 24%;
   }
 }
-/* line 345, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 #sektor-d .marker2 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 345, ../sass/style.scss */
+  /* line 365, ../sass/style.scss */
   #sektor-d .marker2 img {
     width: 17%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 345, ../sass/style.scss */
+  /* line 365, ../sass/style.scss */
   #sektor-d .marker2 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 345, ../sass/style.scss */
+  /* line 365, ../sass/style.scss */
   #sektor-d .marker2 img {
     width: 29%;
   }
 }
-/* line 360, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 #sektor-d .marker3 {
   top: 38.2%;
   left: 37.5%;
 }
 @media (max-width: 480px) {
-  /* line 360, ../sass/style.scss */
+  /* line 380, ../sass/style.scss */
   #sektor-d .marker3 {
     top: 39.2%;
   }
 }
-/* line 367, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 #sektor-d .marker3 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 367, ../sass/style.scss */
+  /* line 387, ../sass/style.scss */
   #sektor-d .marker3 img {
     width: 12%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 367, ../sass/style.scss */
+  /* line 387, ../sass/style.scss */
   #sektor-d .marker3 img {
     width: 20%;
   }
 }
-/* line 379, ../sass/style.scss */
+/* line 399, ../sass/style.scss */
 #sektor-d .marker4 {
   top: 53%;
   left: 26.7%;
 }
-/* line 382, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 #sektor-d .marker4 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 382, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   #sektor-d .marker4 img {
     width: 12%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 382, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   #sektor-d .marker4 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 382, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   #sektor-d .marker4 img {
     width: 29%;
   }
 }
-/* line 397, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 #sektor-d .marker5 {
   top: 47.5%;
   left: 37.7%;
 }
 @media (max-width: 480px) {
-  /* line 397, ../sass/style.scss */
+  /* line 417, ../sass/style.scss */
   #sektor-d .marker5 {
     top: 46.5%;
     left: 37.2%;
   }
 }
-/* line 405, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 #sektor-d .marker5 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 405, ../sass/style.scss */
+  /* line 425, ../sass/style.scss */
   #sektor-d .marker5 img {
     width: 12%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 405, ../sass/style.scss */
+  /* line 425, ../sass/style.scss */
   #sektor-d .marker5 img {
     width: 21%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 405, ../sass/style.scss */
+  /* line 425, ../sass/style.scss */
   #sektor-d .marker5 img {
     width: 30%;
+  }
+}
+/* line 440, ../sass/style.scss */
+#sektor-d .marker6 {
+  top: 52%;
+  left: 38%;
+}
+@media (max-width: 480px) {
+  /* line 440, ../sass/style.scss */
+  #sektor-d .marker6 {
+    top: 50.2%;
+    left: 38%;
+  }
+}
+/* line 448, ../sass/style.scss */
+#sektor-d .marker6 img {
+  width: 4%;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  /* line 448, ../sass/style.scss */
+  #sektor-d .marker6 img {
+    width: 4%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 448, ../sass/style.scss */
+  #sektor-d .marker6 img {
+    width: 4%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 448, ../sass/style.scss */
+  #sektor-d .marker6 img {
+    width: 4%;
   }
 }
 
 /* Sektor D End */
 /* Sektor E */
-/* line 429, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 #sektor-e .marker1 {
   top: 36.8%;
   left: 46.6%;
 }
 @media (max-width: 480px) {
-  /* line 429, ../sass/style.scss */
+  /* line 472, ../sass/style.scss */
   #sektor-e .marker1 {
     top: 35.5%;
     left: 46.5%;
   }
 }
-/* line 437, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 #sektor-e .marker1 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 437, ../sass/style.scss */
+  /* line 480, ../sass/style.scss */
   #sektor-e .marker1 img {
     width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 437, ../sass/style.scss */
+  /* line 480, ../sass/style.scss */
   #sektor-e .marker1 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 437, ../sass/style.scss */
+  /* line 480, ../sass/style.scss */
   #sektor-e .marker1 img {
     width: 29%;
   }
 }
-/* line 452, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 #sektor-e .marker2 {
   top: 43%;
   left: 45.2%;
 }
 @media (max-width: 480px) {
-  /* line 452, ../sass/style.scss */
+  /* line 495, ../sass/style.scss */
   #sektor-e .marker2 {
     top: 41%;
     left: 45.2%;
   }
 }
-/* line 460, ../sass/style.scss */
+/* line 503, ../sass/style.scss */
 #sektor-e .marker2 img {
   width: 13%;
   cursor: pointer;
 }
-/* line 465, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 #sektor-e .marker3 {
   top: 37.3%;
   left: 53%;
 }
 @media (max-width: 480px) {
-  /* line 465, ../sass/style.scss */
+  /* line 508, ../sass/style.scss */
   #sektor-e .marker3 {
     top: 37%;
     left: 53%;
   }
 }
-/* line 473, ../sass/style.scss */
+/* line 516, ../sass/style.scss */
 #sektor-e .marker3 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 473, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   #sektor-e .marker3 img {
     width: 9%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 473, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   #sektor-e .marker3 img {
     width: 16%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 473, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   #sektor-e .marker3 img {
     width: 23%;
   }
 }
-/* line 488, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 #sektor-e .marker4 {
   top: 39%;
   left: 57.5%;
 }
 @media (max-width: 480px) {
-  /* line 488, ../sass/style.scss */
+  /* line 531, ../sass/style.scss */
   #sektor-e .marker4 {
     top: 38%;
   }
 }
-/* line 494, ../sass/style.scss */
+/* line 537, ../sass/style.scss */
 #sektor-e .marker4 img {
   width: 39%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 494, ../sass/style.scss */
+  /* line 537, ../sass/style.scss */
   #sektor-e .marker4 img {
     width: 13%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 494, ../sass/style.scss */
+  /* line 537, ../sass/style.scss */
   #sektor-e .marker4 img {
     width: 20%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 494, ../sass/style.scss */
+  /* line 537, ../sass/style.scss */
   #sektor-e .marker4 img {
     width: 31%;
   }
 }
-/* line 508, ../sass/style.scss */
+/* line 551, ../sass/style.scss */
 #sektor-e .marker5 {
   top: 47%;
   left: 54%;
 }
 @media (max-width: 480px) {
-  /* line 508, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   #sektor-e .marker5 {
     top: 45%;
   }
 }
-/* line 514, ../sass/style.scss */
+/* line 557, ../sass/style.scss */
 #sektor-e .marker5 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 514, ../sass/style.scss */
+  /* line 557, ../sass/style.scss */
   #sektor-e .marker5 img {
     width: 12%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 514, ../sass/style.scss */
+  /* line 557, ../sass/style.scss */
   #sektor-e .marker5 img {
     width: 18%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 514, ../sass/style.scss */
+  /* line 557, ../sass/style.scss */
   #sektor-e .marker5 img {
     width: 27%;
   }
 }
-/* line 528, ../sass/style.scss */
+/* line 571, ../sass/style.scss */
 #sektor-e .marker6 {
   top: 44.5%;
   left: 58%;
 }
 @media (max-width: 480px) {
-  /* line 528, ../sass/style.scss */
+  /* line 571, ../sass/style.scss */
   #sektor-e .marker6 {
     top: 43%;
   }
 }
-/* line 534, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 #sektor-e .marker6 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 534, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   #sektor-e .marker6 img {
     width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 534, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   #sektor-e .marker6 img {
     width: 19%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 534, ../sass/style.scss */
+  /* line 577, ../sass/style.scss */
   #sektor-e .marker6 img {
     width: 29%;
   }
 }
-/* line 548, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 #sektor-e .marker7 {
   top: 53%;
   left: 57.2%;
 }
 @media (max-width: 480px) {
-  /* line 548, ../sass/style.scss */
+  /* line 591, ../sass/style.scss */
   #sektor-e .marker7 {
     top: 52%;
   }
 }
-/* line 554, ../sass/style.scss */
+/* line 597, ../sass/style.scss */
 #sektor-e .marker7 img {
   width: 13%;
   cursor: pointer;
 }
-/* line 559, ../sass/style.scss */
+/* line 602, ../sass/style.scss */
 #sektor-e .marker8 {
   top: 55%;
   left: 53.7%;
 }
 @media (max-width: 480px) {
-  /* line 559, ../sass/style.scss */
+  /* line 602, ../sass/style.scss */
   #sektor-e .marker8 {
     top: 54%;
   }
 }
-/* line 565, ../sass/style.scss */
+/* line 608, ../sass/style.scss */
 #sektor-e .marker8 img {
   width: 9%;
   cursor: pointer;
 }
-/* line 570, ../sass/style.scss */
+/* line 613, ../sass/style.scss */
 #sektor-e .marker9 {
   top: 59.2%;
   left: 42.8%;
 }
 @media (max-width: 480px) {
-  /* line 570, ../sass/style.scss */
+  /* line 613, ../sass/style.scss */
   #sektor-e .marker9 {
     top: 58.2%;
   }
 }
-/* line 576, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 #sektor-e .marker9 img {
   width: 32%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 576, ../sass/style.scss */
+  /* line 619, ../sass/style.scss */
   #sektor-e .marker9 img {
     width: 10%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 576, ../sass/style.scss */
+  /* line 619, ../sass/style.scss */
   #sektor-e .marker9 img {
     width: 18%;
   }
 }
-/* line 587, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 #sektor-e .marker10 {
   top: 60%;
   left: 50.3%;
 }
 @media (max-width: 480px) {
-  /* line 587, ../sass/style.scss */
+  /* line 630, ../sass/style.scss */
   #sektor-e .marker10 {
     top: 58%;
   }
 }
-/* line 593, ../sass/style.scss */
+/* line 636, ../sass/style.scss */
 #sektor-e .marker10 img {
   width: 6%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 593, ../sass/style.scss */
+  /* line 636, ../sass/style.scss */
   #sektor-e .marker10 img {
     width: 5%;
   }
@@ -834,210 +903,210 @@ img.skkk {
 
 /* Sektor E End */
 /* Sektor F */
-/* line 610, ../sass/style.scss */
+/* line 653, ../sass/style.scss */
 #sektor-f .marker1 {
   top: 27.5%;
   left: 63.6%;
 }
 @media (max-width: 480px) {
-  /* line 610, ../sass/style.scss */
+  /* line 653, ../sass/style.scss */
   #sektor-f .marker1 {
     top: 27.5%;
   }
 }
-/* line 617, ../sass/style.scss */
+/* line 660, ../sass/style.scss */
 #sektor-f .marker1 img {
   width: 64%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 617, ../sass/style.scss */
+  /* line 660, ../sass/style.scss */
   #sektor-f .marker1 img {
     width: 64%;
   }
 }
-/* line 626, ../sass/style.scss */
+/* line 669, ../sass/style.scss */
 #sektor-f .marker2a {
   top: 28%;
   left: 73.6%;
 }
 @media (max-width: 480px) {
-  /* line 626, ../sass/style.scss */
+  /* line 669, ../sass/style.scss */
   #sektor-f .marker2a {
     top: 27.5%;
   }
 }
-/* line 633, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 #sektor-f .marker2a img {
   width: 44%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 633, ../sass/style.scss */
+  /* line 676, ../sass/style.scss */
   #sektor-f .marker2a img {
     width: 44%;
   }
 }
-/* line 642, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 #sektor-f .marker2 {
   top: 47%;
   left: 64%;
 }
 @media (max-width: 480px) {
-  /* line 642, ../sass/style.scss */
+  /* line 685, ../sass/style.scss */
   #sektor-f .marker2 {
     top: 45%;
   }
 }
-/* line 648, ../sass/style.scss */
+/* line 691, ../sass/style.scss */
 #sektor-f .marker2 img {
   width: 30%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 648, ../sass/style.scss */
+  /* line 691, ../sass/style.scss */
   #sektor-f .marker2 img {
     width: 17%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 648, ../sass/style.scss */
+  /* line 691, ../sass/style.scss */
   #sektor-f .marker2 img {
     width: 16%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 648, ../sass/style.scss */
+  /* line 691, ../sass/style.scss */
   #sektor-f .marker2 img {
     width: 25%;
   }
 }
-/* line 662, ../sass/style.scss */
+/* line 705, ../sass/style.scss */
 #sektor-f .marker3 {
   top: 53%;
   left: 73%;
 }
 @media (max-width: 480px) {
-  /* line 662, ../sass/style.scss */
+  /* line 705, ../sass/style.scss */
   #sektor-f .marker3 {
     top: 51%;
   }
 }
-/* line 668, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 #sektor-f .marker3 img {
   width: 19%;
   cursor: pointer;
 }
-/* line 673, ../sass/style.scss */
+/* line 716, ../sass/style.scss */
 #sektor-f .marker4 {
   top: 40%;
   left: 84%;
 }
 @media (max-width: 480px) {
-  /* line 673, ../sass/style.scss */
+  /* line 716, ../sass/style.scss */
   #sektor-f .marker4 {
     top: 38%;
   }
 }
-/* line 679, ../sass/style.scss */
+/* line 722, ../sass/style.scss */
 #sektor-f .marker4 img {
   width: 40%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 679, ../sass/style.scss */
+  /* line 722, ../sass/style.scss */
   #sektor-f .marker4 img {
     width: 40%;
   }
 }
-/* line 687, ../sass/style.scss */
+/* line 730, ../sass/style.scss */
 #sektor-f .marker5 {
   top: 58%;
   left: 66.7%;
 }
 @media (max-width: 480px) {
-  /* line 687, ../sass/style.scss */
+  /* line 730, ../sass/style.scss */
   #sektor-f .marker5 {
     top: 56%;
   }
 }
-/* line 693, ../sass/style.scss */
+/* line 736, ../sass/style.scss */
 #sektor-f .marker5 img {
   width: 8.7%;
   cursor: pointer;
 }
-/* line 698, ../sass/style.scss */
+/* line 741, ../sass/style.scss */
 #sektor-f .marker6 {
   top: 44.5%;
   left: 58%;
 }
 @media (max-width: 480px) {
-  /* line 698, ../sass/style.scss */
+  /* line 741, ../sass/style.scss */
   #sektor-f .marker6 {
     top: 43%;
   }
 }
-/* line 704, ../sass/style.scss */
+/* line 747, ../sass/style.scss */
 #sektor-f .marker6 img {
   width: 35%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 704, ../sass/style.scss */
+  /* line 747, ../sass/style.scss */
   #sektor-f .marker6 img {
     width: 11%;
   }
 }
-/* line 714, ../sass/style.scss */
+/* line 757, ../sass/style.scss */
 #sektor-f .marker9 {
   top: 60%;
   left: 60.5%;
 }
-/* line 717, ../sass/style.scss */
+/* line 760, ../sass/style.scss */
 #sektor-f .marker9 img {
   width: 11%;
   cursor: pointer;
 }
-/* line 722, ../sass/style.scss */
+/* line 765, ../sass/style.scss */
 #sektor-f .marker10 {
   top: 59.2%;
   left: 42.8%;
 }
 @media (max-width: 480px) {
-  /* line 722, ../sass/style.scss */
+  /* line 765, ../sass/style.scss */
   #sektor-f .marker10 {
     top: 58.2%;
   }
 }
-/* line 728, ../sass/style.scss */
+/* line 771, ../sass/style.scss */
 #sektor-f .marker10 img {
   width: 32%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 728, ../sass/style.scss */
+  /* line 771, ../sass/style.scss */
   #sektor-f .marker10 img {
     width: 10%;
   }
 }
-/* line 736, ../sass/style.scss */
+/* line 779, ../sass/style.scss */
 #sektor-f .marker11 {
   top: 60%;
   left: 50.3%;
 }
 @media (max-width: 480px) {
-  /* line 736, ../sass/style.scss */
+  /* line 779, ../sass/style.scss */
   #sektor-f .marker11 {
     top: 58%;
   }
 }
-/* line 742, ../sass/style.scss */
+/* line 785, ../sass/style.scss */
 #sektor-f .marker11 img {
   width: 6%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 742, ../sass/style.scss */
+  /* line 785, ../sass/style.scss */
   #sektor-f .marker11 img {
     width: 5%;
   }
@@ -1045,96 +1114,96 @@ img.skkk {
 
 /* Sektor F End */
 /* Sektor G */
-/* line 759, ../sass/style.scss */
+/* line 802, ../sass/style.scss */
 #sektor-g .marker1 {
   top: 65%;
   left: 36.8%;
 }
 @media (max-width: 480px) {
-  /* line 759, ../sass/style.scss */
+  /* line 802, ../sass/style.scss */
   #sektor-g .marker1 {
     top: 63%;
   }
 }
-/* line 766, ../sass/style.scss */
+/* line 809, ../sass/style.scss */
 #sektor-g .marker1 img {
   width: 6%;
   cursor: pointer;
 }
-/* line 771, ../sass/style.scss */
+/* line 814, ../sass/style.scss */
 #sektor-g .marker2 {
   top: 72%;
   left: 34.5%;
 }
-/* line 774, ../sass/style.scss */
+/* line 817, ../sass/style.scss */
 #sektor-g .marker2 img {
   width: 30%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 774, ../sass/style.scss */
+  /* line 817, ../sass/style.scss */
   #sektor-g .marker2 img {
     width: 9%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 774, ../sass/style.scss */
+  /* line 817, ../sass/style.scss */
   #sektor-g .marker2 img {
     width: 16.5%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 774, ../sass/style.scss */
+  /* line 817, ../sass/style.scss */
   #sektor-g .marker2 img {
     width: 24%;
   }
 }
-/* line 789, ../sass/style.scss */
+/* line 832, ../sass/style.scss */
 #sektor-g .marker3 {
   top: 87%;
   left: 25%;
 }
 @media (max-width: 480px) {
-  /* line 789, ../sass/style.scss */
+  /* line 832, ../sass/style.scss */
   #sektor-g .marker3 {
     top: 85%;
   }
 }
-/* line 796, ../sass/style.scss */
+/* line 839, ../sass/style.scss */
 #sektor-g .marker3 img {
   width: 9%;
   cursor: pointer;
 }
-/* line 801, ../sass/style.scss */
+/* line 844, ../sass/style.scss */
 #sektor-g .marker4 {
   top: 88%;
   left: 33.9%;
 }
 @media (max-width: 480px) {
-  /* line 801, ../sass/style.scss */
+  /* line 844, ../sass/style.scss */
   #sektor-g .marker4 {
     top: 86%;
   }
 }
-/* line 807, ../sass/style.scss */
+/* line 850, ../sass/style.scss */
 #sektor-g .marker4 img {
   width: 9%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 807, ../sass/style.scss */
+  /* line 850, ../sass/style.scss */
   #sektor-g .marker4 img {
     width: 7%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 807, ../sass/style.scss */
+  /* line 850, ../sass/style.scss */
   #sektor-g .marker4 img {
     width: 8%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 807, ../sass/style.scss */
+  /* line 850, ../sass/style.scss */
   #sektor-g .marker4 img {
     width: 8%;
   }
@@ -1142,194 +1211,200 @@ img.skkk {
 
 /* Sektor G End */
 /* Sektor H */
-/* line 831, ../sass/style.scss */
+/* line 874, ../sass/style.scss */
 #sektor-h .marker1 {
   top: 67.5%;
   left: 43%;
 }
 @media (max-width: 480px) {
-  /* line 831, ../sass/style.scss */
+  /* line 874, ../sass/style.scss */
   #sektor-h .marker1 {
     top: 65.5%;
   }
 }
-/* line 837, ../sass/style.scss */
+/* line 880, ../sass/style.scss */
 #sektor-h .marker1 img {
   width: 8%;
   cursor: pointer;
 }
-/* line 842, ../sass/style.scss */
+/* line 885, ../sass/style.scss */
 #sektor-h .marker2 {
   top: 70.5%;
   left: 45%;
 }
 @media (max-width: 480px) {
-  /* line 842, ../sass/style.scss */
+  /* line 885, ../sass/style.scss */
   #sektor-h .marker2 {
     top: 68.5%;
   }
 }
-/* line 848, ../sass/style.scss */
+/* line 891, ../sass/style.scss */
 #sektor-h .marker2 img {
-  width: 28%;
+  width: 23%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 848, ../sass/style.scss */
+  /* line 891, ../sass/style.scss */
   #sektor-h .marker2 img {
     width: 10%;
   }
 }
-/* line 856, ../sass/style.scss */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* line 891, ../sass/style.scss */
+  #sektor-h .marker2 img {
+    width: 15%;
+  }
+}
+/* line 902, ../sass/style.scss */
 #sektor-h .marker3 {
   top: 73%;
   left: 42.5%;
 }
 @media (max-width: 480px) {
-  /* line 856, ../sass/style.scss */
+  /* line 902, ../sass/style.scss */
   #sektor-h .marker3 {
     top: 71%;
   }
 }
-/* line 862, ../sass/style.scss */
+/* line 908, ../sass/style.scss */
 #sektor-h .marker3 img {
   width: 3%;
   cursor: pointer;
 }
-/* line 867, ../sass/style.scss */
+/* line 913, ../sass/style.scss */
 #sektor-h .marker4 {
   top: 77%;
   left: 41.5%;
 }
-/* line 870, ../sass/style.scss */
+/* line 916, ../sass/style.scss */
 #sektor-h .marker4 img {
   width: 39%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 870, ../sass/style.scss */
+  /* line 916, ../sass/style.scss */
   #sektor-h .marker4 img {
     width: 11%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 870, ../sass/style.scss */
+  /* line 916, ../sass/style.scss */
   #sektor-h .marker4 img {
     width: 21%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 870, ../sass/style.scss */
+  /* line 916, ../sass/style.scss */
   #sektor-h .marker4 img {
     width: 30%;
   }
 }
-/* line 884, ../sass/style.scss */
+/* line 930, ../sass/style.scss */
 #sektor-h .marker5 {
   top: 78%;
   left: 47.5%;
 }
 @media (max-width: 480px) {
-  /* line 884, ../sass/style.scss */
+  /* line 930, ../sass/style.scss */
   #sektor-h .marker5 {
     top: 73%;
     left: 47.2%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 884, ../sass/style.scss */
+  /* line 930, ../sass/style.scss */
   #sektor-h .marker5 {
     top: 74.5%;
     left: 47.3%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 884, ../sass/style.scss */
+  /* line 930, ../sass/style.scss */
   #sektor-h .marker5 {
     top: 74%;
   }
 }
-/* line 898, ../sass/style.scss */
+/* line 944, ../sass/style.scss */
 #sektor-h .marker5 img {
   width: 7%;
   cursor: pointer;
 }
-/* line 903, ../sass/style.scss */
+/* line 949, ../sass/style.scss */
 #sektor-h .marker6 {
   top: 68.5%;
   left: 50.2%;
 }
 @media (max-width: 480px) {
-  /* line 903, ../sass/style.scss */
+  /* line 949, ../sass/style.scss */
   #sektor-h .marker6 {
     top: 66%;
   }
 }
-/* line 909, ../sass/style.scss */
+/* line 955, ../sass/style.scss */
 #sektor-h .marker6 img {
   width: 5%;
   cursor: pointer;
 }
-/* line 914, ../sass/style.scss */
+/* line 960, ../sass/style.scss */
 #sektor-h .marker7 {
   top: 63.2%;
   left: 53.7%;
 }
-/* line 917, ../sass/style.scss */
+/* line 963, ../sass/style.scss */
 #sektor-h .marker7 img {
   width: 32%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 917, ../sass/style.scss */
+  /* line 963, ../sass/style.scss */
   #sektor-h .marker7 img {
     width: 13.5%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 917, ../sass/style.scss */
+  /* line 963, ../sass/style.scss */
   #sektor-h .marker7 img {
     width: 18%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* line 917, ../sass/style.scss */
+  /* line 963, ../sass/style.scss */
   #sektor-h .marker7 img {
     width: 26%;
   }
 }
-/* line 931, ../sass/style.scss */
+/* line 977, ../sass/style.scss */
 #sektor-h .marker8 {
   top: 80%;
   left: 61%;
 }
 @media (max-width: 480px) {
-  /* line 931, ../sass/style.scss */
+  /* line 977, ../sass/style.scss */
   #sektor-h .marker8 {
     top: 78%;
   }
 }
-/* line 937, ../sass/style.scss */
+/* line 983, ../sass/style.scss */
 #sektor-h .marker8 img {
   width: 9%;
   cursor: pointer;
 }
-/* line 942, ../sass/style.scss */
+/* line 988, ../sass/style.scss */
 #sektor-h .marker9 {
   top: 60%;
   left: 60.5%;
 }
-/* line 945, ../sass/style.scss */
+/* line 991, ../sass/style.scss */
 #sektor-h .marker9 img {
   width: 11%;
   cursor: pointer;
 }
-/* line 950, ../sass/style.scss */
+/* line 996, ../sass/style.scss */
 #sektor-h .marker10 {
   top: 70%;
   left: 61.7%;
 }
-/* line 953, ../sass/style.scss */
+/* line 999, ../sass/style.scss */
 #sektor-h .marker10 img {
   width: 9%;
   cursor: pointer;
@@ -1337,18 +1412,18 @@ img.skkk {
 
 /* Sektor H End */
 /* Sektor I */
-/* line 967, ../sass/style.scss */
+/* line 1013, ../sass/style.scss */
 #sektor-i .marker1 {
   top: 78%;
   left: 72%;
 }
 @media (max-width: 480px) {
-  /* line 967, ../sass/style.scss */
+  /* line 1013, ../sass/style.scss */
   #sektor-i .marker1 {
     top: 76%;
   }
 }
-/* line 973, ../sass/style.scss */
+/* line 1019, ../sass/style.scss */
 #sektor-i .marker1 img {
   width: 26%;
   cursor: pointer;
@@ -1356,7 +1431,7 @@ img.skkk {
 
 /* Sektor I End */
 /* Modal */
-/* line 984, ../sass/style.scss */
+/* line 1032, ../sass/style.scss */
 img.pin-modal {
   width: 10%;
 }
