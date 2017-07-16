@@ -171,7 +171,7 @@ img.skkk {
 /* line 143, ../sass/style.scss */
 #sektor-a .marker1a {
   top: 9%;
-  left: 19%;
+  left: 33%;
 }
 @media (max-width: 480px) {
   /* line 143, ../sass/style.scss */
@@ -187,13 +187,13 @@ img.skkk {
 @media (max-width: 480px) {
   /* line 149, ../sass/style.scss */
   #sektor-a .marker1a img {
-    width: 26%;
+    width: 18%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   /* line 149, ../sass/style.scss */
   #sektor-a .marker1a img {
-    width: 26%;
+    width: 25%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
