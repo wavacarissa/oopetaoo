@@ -31,6 +31,10 @@ $(document).ready(function() {
     $('#sepeda-kampus').click(function() {
         $('img.sepeda-kampus').toggle();
     });
+    
+    $('#sekre').click(function() {
+        $('img.sekre').toggle();
+    });
 
     $('#kantong-parkir').click(function() {
         $('img.kantong-parkir').toggle();
@@ -46,6 +50,10 @@ $(document).ready(function() {
     
     $('img.sepeda-kampus').click(function() {
         $('#modalSepeda').modal('toggle');
+    });
+    
+     $('img.sekre').click(function() {
+        $('#modalSekre').modal('toggle');
     });
     
     $('img.skkk').click(function() {

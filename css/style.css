@@ -11,7 +11,7 @@ body {
 
 #peta-ugm {
   font-family: 'Montserrat', sans-serif;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -31,7 +31,8 @@ body {
 
 #sepeda-kampus,
 #kantong-parkir,
-#skkk {
+#skkk,
+#sekre {
   cursor: pointer;
 }
 
@@ -44,6 +45,10 @@ body {
 }
 
 #skkk img {
+  width: 10%;
+}
+
+#sekre img {
   width: 10%;
 }
 
@@ -68,6 +73,10 @@ img.sepeda-kampus {
 }
 
 img.skkk {
+  display: none;
+}
+
+img.sekre {
   display: none;
 }
 
@@ -1151,26 +1160,26 @@ img.skkk {
   cursor: pointer;
 }
 #sektor-h .marker7 {
-  top: 63.2%;
-  left: 53.7%;
+  top: 61%;
+  left: 53.5%;
 }
 #sektor-h .marker7 img {
-  width: 32%;
+  width: 36%;
   cursor: pointer;
 }
 @media (max-width: 480px) {
   #sektor-h .marker7 img {
-    width: 13.5%;
+    width: 15.5%;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   #sektor-h .marker7 img {
-    width: 18%;
+    width: 22.5%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   #sektor-h .marker7 img {
-    width: 26%;
+    width: 30%;
   }
 }
 #sektor-h .marker8 {
