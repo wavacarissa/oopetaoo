@@ -112,6 +112,7 @@ img.sekre {
   color: white;
 }
 .popover .popover-content img {
+  height: 100px;
   width: 100% !important;
   padding: 0 0 10px;
 }
