@@ -7,6 +7,15 @@ $(document).ready(function() {
             if ($(this).data('img')==null && $(this).data('deskripsi')==null && $(this).data('link')==null) {
                 return null
             }
+            else if ($(this).data('img')!=null && $(this).data('deskripsi')==null && $(this).data('link')==null) {
+                return '<img src="' + $(this).data('img') + '" />'
+            }
+            else if ($(this).data('img')==null && $(this).data('deskripsi')!=null && $(this).data('link')==null) {
+                return '<p>' + $(this).data('deskripsi') + '</p>'
+            }
+            else if ($(this).data('img')!=null && $(this).data('deskripsi')!=null && $(this).data('link')==null) {
+                return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>'
+            }
             return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
                 '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>'
         },
