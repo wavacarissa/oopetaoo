@@ -1,9 +1,12 @@
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover({
         html: true,
-        placement: 'top',
+        //placement: 'top',
         trigger: 'focus',
         content: function() {
+            if ($(this).data('img')==null && $(this).data('deskripsi')==null && $(this).data('link')==null) {
+                return null
+            }
             return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
                 '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>'
         },
