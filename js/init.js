@@ -4,9 +4,8 @@ $(document).ready(function() {
         placement: 'top',
         trigger: 'focus',
         content: function() {
-            return '<p>' + $(this).data('deskripsi') + '</p>' +
-                '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>' +
-                '<img src="' + $(this).data('img') + '" />'
+            return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
+                '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>'
         },
         template: '<div class="popover">' +
             '<div class="arrow"></div>' +
