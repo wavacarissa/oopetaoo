@@ -4,20 +4,25 @@ $(document).ready(function() {
         //placement: 'top',
         trigger: 'focus',
         content: function() {
-            if ($(this).data('img')==null && $(this).data('deskripsi')==null && $(this).data('link')==null) {
+            if ($(this).data('img')==null && $(this).data('deskripsi')==null && $(this).data('link')==null && $(this).data('link2')==null) {
                 return null
             }
-            else if ($(this).data('img')!=null && $(this).data('deskripsi')==null && $(this).data('link')==null) {
+            else if ($(this).data('img')!=null && $(this).data('deskripsi')==null && $(this).data('link')==null && $(this).data('link2')==null) {
                 return '<img src="' + $(this).data('img') + '" />'
             }
-            else if ($(this).data('img')==null && $(this).data('deskripsi')!=null && $(this).data('link')==null) {
+            else if ($(this).data('img')==null && $(this).data('deskripsi')!=null && $(this).data('link')==null && $(this).data('link2')==null) {
                 return '<p>' + $(this).data('deskripsi') + '</p>'
             }
-            else if ($(this).data('img')!=null && $(this).data('deskripsi')!=null && $(this).data('link')==null) {
+            else if ($(this).data('img')!=null && $(this).data('deskripsi')!=null && $(this).data('link')==null && $(this).data('link2')==null) {
                 return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>'
             }
-            return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
+            else if ($(this).data('img')!=null && $(this).data('deskripsi')!=null && $(this).data('link')!=null && $(this).data('link2')==null) {
+                return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
                 '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>'
+            }
+            return '<img src="' + $(this).data('img') + '" />' + '<p>' + $(this).data('deskripsi') + '</p>' +
+                '<p><a href="' + $(this).data('link') + '" target="_blank">' + $(this).data('link') + '</a></p>' +
+                '<p><a href="' + $(this).data('link2') + '" target="_blank">' + $(this).data('link2') + '</a></p>'
         },
         template: '<div class="popover">' +
             '<div class="arrow"></div>' +
